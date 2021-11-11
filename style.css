@@ -13,3 +13,7 @@ h1 {
 .sexy-font {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
+
+.hidden {
+  display: none;
+}
