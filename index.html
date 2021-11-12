@@ -8,33 +8,36 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-   
-   <form id="login-form" class="hidden">
+<div id="weather">
+    <span></span>
+    <span></span>
+</div>
+   <div class=center>
+    <form id="login-form" class="hidden">
         <input required maxlength="15" type="text" placeholder="what is your name?" />
         <button>Log in</button>
-   </form>
-   <h1 id="greeting" class="hidden"></h1>
-   <h2 id="clock">00:00</h2>
+    </form>
+    <h1 id="greeting" class="hidden"></h1>
+    <h2 id="clock">00:00</h2>
+    
+    <form id="todo-form">
+        <input type="text" placeholder="당신의 할 일을 입력하세요" required>
+    </form>
+    <ul id="todo-list" class="center"></ul>
+   
+</div>
+<div id="quotes">
+    <span></span>
+    <span></span>
+</div>
 
-   <form id="todo-form">
-        <input type="text" placeholder="당신의 할 일을 입력하세요" required> 
-   </form>
-   <ul id="todo-list"></ul>
-   <div id="quotes">
-       <span></span>
-       <span></span>
-   </div>
-   <div id="weather">
-       <span></span>
-       <span></span>
-   </div>
 
 <script src="js/greeting.js"></script>
 <script src="js/clock.js"></script>
 <script src="js/quotes.js"></script>
 <script src="js/background.js"></script>
 <script src="js/todo.js"></script>
-<script src="js/weather.js"></script>
 <script src="js/config.js"></script>
+<script src="js/weather.js"></script>
 </body>
 </html>
